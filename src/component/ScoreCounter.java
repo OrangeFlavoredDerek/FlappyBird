@@ -71,4 +71,8 @@ public class ScoreCounter {
     public long getCurrentScore() {
         return score;
     }
+
+    public void reset() {
+        score = 0;
+    }
 }

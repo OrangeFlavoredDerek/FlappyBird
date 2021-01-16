@@ -34,13 +34,13 @@ public class Cloud {
     }
 
     //绘制方法
-    public void draw(Graphics g, Bird bird {
+    public void draw(Graphics g, Bird bird) {
         int speed = this.speed;
         if (bird.isDead()) {
             speed = 1;
         }
         x -= speed;
-        g.drawImage(img, x, y, scaleImageWidth, scaleImageHeight, null);
+        g.drawImage(image, x, y, scaleImageWidth, scaleImageHeight, null);
     }
 
     /**
