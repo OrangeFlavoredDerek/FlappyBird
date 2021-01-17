@@ -46,4 +46,11 @@ public class Bird {
         return true;
     }
 
+    public long getCurrentScore() {
+
+    }
+
+    public long getBestScore() {
+        
+    }
 }
