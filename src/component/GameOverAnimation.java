@@ -5,8 +5,6 @@ import util.GameUtil;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 
-import jdk.jshell.execution.FailOverExecutionControlProvider;
-
 /**
  * 游戏结束界面
  * 
