@@ -12,13 +12,13 @@ import util.GameUtil;
  * 
  */
 
-public class GameForground {
+public class GameForeground {
     private final List<Cloud> clouds;//云朵的容器
     private final BufferedImage[] clouImages;//图片资源
     private long time;//控制云的逻辑运算周期
     public static final int cloudInterval = 100;//云朵刷新的逻辑运算的周期
 
-    public GameForground() {
+    public GameForeground() {
         clouds = new ArrayList<>();//云朵的容器
         //读入图片资源
         clouImages = new BufferedImage[Constant.cloudImageCount];

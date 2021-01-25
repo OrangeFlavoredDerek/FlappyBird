@@ -1,7 +1,6 @@
 package component;
 
 import java.awt.Graphics;
-import java.text.Bidi;
 import java.util.ArrayList;
 import java.util.List;
 import util.Constant;
